@@ -1,12 +1,12 @@
-# GAN-Enhanced Gastrointestinal Disease Classification
+# Diffusion-Enhanced Gastrointestinal Disease Classification
 
-This project explores the use of Generative Adversarial Networks (GANs) to improve gastrointestinal (GI) disease classification from endoscopic images, particularly using the Kvasir v2 dataset.
+This project explores the use of Diffusion model to improve gastrointestinal (GI) disease classification from endoscopic images, particularly using the Kvasir v2 dataset.
 
 ## 🧠 Project Overview
 
 This repository contains whole work on a deep learning pipeline for GI image classification, aiming to:
 
-- Enhance data diversity using GAN-generated synthetic samples.
+- Enhance data diversity using Diffusion generated synthetic samples.
 - Improve classification accuracy on underrepresented disease classes.
 - Apply preprocessing techniques to improve lesion visibility.
 - Visualize model decision-making using explainability tools.
@@ -19,7 +19,7 @@ This repository contains whole work on a deep learning pipeline for GI image cla
 - ✅ Initial setup for training using cosine annealing and CutMix Regularization.
 - ✅ Grad-CAM-based post-processing visualization.
 - ✅ Generating Accuracy, F1-score, AUC, Precision/Recall(for original data)
-- 🔄 (In progress) GAN-based data augmentation with StyleGAN2-ADA
+- 🔄 (In progress) Diffusion-based data augmentation
 
 
 📊 Dataset
